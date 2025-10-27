@@ -202,7 +202,7 @@ const Skills = () => {
               whileHover={{ scale: 1.2 }}
               whileTap={{ scale: 0.8 }}
               className="object-cover w-20"
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
             />
             <p className="pt-2 hover:text-sm">Tailwind</p>
           </div>

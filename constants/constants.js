@@ -1,3 +1,5 @@
+import { title } from "process";
+
 export const projects = [
   {
     title: "Catalyst Eastern Town Hall",
@@ -19,16 +21,16 @@ export const projects = [
     visit: "https://ecommerce-shoes-alpha.vercel.app/",
     id: 1,
   },
-  {
-    title: "HBS Store",
-    description:
-      "This is a redesign website to have better user interface and improve user experience.",
-    image: "/images/image-3.png",
-    tags: ["React", "TailwindCSS", "E-commerce"],
-    source: "https://jennyberry.github.io/hbs-clone/",
-    visit: "https://jennyberry.github.io/hbs-clone/",
-    id: 2,
-  },
+  // {
+  //   title: "HBS Store",
+  //   description:
+  //     "This is a redesign website to have better user interface and improve user experience.",
+  //   image: "/images/image-3.png",
+  //   tags: ["React", "TailwindCSS", "E-commerce"],
+  //   source: "https://jennyberry.github.io/hbs-clone/",
+  //   visit: "https://jennyberry.github.io/hbs-clone/",
+  //   id: 2,
+  // },
   {
     title: "Meme Generator",
     description: "Randomize the images and place texts on to create memes",
@@ -50,10 +52,31 @@ export const projects = [
   },
 ];
 
-// export const TimeLineData = [
-//   { year: 2017, text: "Started my journey" },
-//   { year: 2018, text: "Worked as a freelance developer" },
-//   { year: 2019, text: "Founded JavaScript Mastery" },
-//   { year: 2020, text: "Shared my projects with the world" },
-//   { year: 2021, text: "Started my own platform" },
-// ];
+export const TimeLineData = [
+  {
+    year: 2019, title: "Started my journey",
+    text: [
+      "I started out with learning the process to build a basic website and software. ",
+      "I had a chance to learn how to create a mobile app as well on both Android and iOS enviroments. ",
+    "Since then, creating new applications become my passion."
+    ]
+  },
+  { year: 2022, title: "Graduated from Western Sydney University",text:"Bachelor of Information and Communication Technology "  },
+  {
+    year: 'Jan 2022 – Feb 2024', title: "Front-end Developer at Cardano Community",
+    text:[
+      "Enhance the capability and design of web pages by coding features such as register form, table and light/dark theme using JavaScript, HTML and Bootstrap. ",
+      "Set up Gitlocalize to automatically translate content to alleviate the need for manual translation and keep track of contributions."
+    ]
+  },
+  {
+    year: 'Mar 2023 - Present', title: "Support Technician at IT&T",
+    text: [
+      "Managed domain and user administration with Microsoft Office and integrated software with Microsoft Azure. ",
+      "Diagnose and resolve technical issues related to computer systems, networking, software, and hardware. ",
+      "Provided initial support to end-users and ensured that their technical issues resolved promptly and efficiently within the SLA."
+    ]
+
+
+  },
+];

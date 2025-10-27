@@ -14,7 +14,7 @@ const Footer = () => {
         <div className="space-y-10">
           <div className="flex items-center justify-center space-x-5">
             <PhoneIcon className="text-orange-400 h-7 w-7 animate-bounce " />
-            <p className="text-lg sm:text-2xl">+61-478-742-123</p>
+            <p className="text-lg sm:text-2xl">+61-410-358-318</p>
           </div>
           <div className="flex items-center justify-center space-x-5">
             <EnvelopeIcon className="text-orange-400 h-7 w-7 animate-bounce" />
@@ -26,7 +26,7 @@ const Footer = () => {
           </div>
           <div className="flex items-center justify-center space-x-5">
             <MapPinIcon className="text-orange-400 h-7 w-7" />
-            <p className="text-lg sm:text-2xl">Sydney, Australia</p>
+            <p className="text-lg sm:text-2xl">Wollongong, Australia</p>
           </div>
         </div>
       </div>

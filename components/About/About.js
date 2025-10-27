@@ -6,7 +6,7 @@ const About = () => {
         About
       </h3>
       <img
-        src="../../images/profile1.png"
+        src="../../images/profile.png"
         className="flex-shrink-0 object-cover w-56 h-56 -mb-20 rounded-full md:mb-0 md:rounded-lg
           md:w-64 md:h-95 xl:w-[300px] xl:h-[200px] lg:mr-10 mt-10"
       />

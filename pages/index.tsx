@@ -7,6 +7,7 @@ import Hero from '../components/Hero/Hero'
 import Projects from '../components/Projects/Projects'
 import Skills from '../components/Skills/Skills'
 import About from '../components/About/About'
+import Experience from '../components/Experience/Experience'
 import Link from 'next/link'
 
 
@@ -23,16 +24,19 @@ const Home: NextPage = () => {
       {/* <Background /> */}
       <Header />
       <section id='hero' className='snap-start'>
-      <Hero />
+        <Hero />
       </section>
       <section id='about' className='snap-center'>
-      <About />
+        <About />
+      </section>
+      <section id='experience' className='snap-center'>
+        <Experience />
       </section>
       <section id='skills' >
-      <Skills />
+        <Skills />
       </section>
       <section id='projects' className='snap-center'>
-      <Projects />
+        <Projects />
       </section>
       <section id='contact' className='snap-center'>
         <Footer />

@@ -31,11 +31,7 @@ const Header = () => {
           fgColor="white"
           bgColor="transparent"
         />
-        <SocialIcon
-          url="https://www.instagram.com"
-          fgColor="white"
-          bgColor="transparent"
-        />
+
       </motion.div>
 
       <motion.div

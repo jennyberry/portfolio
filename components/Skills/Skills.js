@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 const Skills = () => {
   return (
-    <div className="flex relative flex-col text-center md:text-left  max-w-[2000px] xl:px-10 min-h-screen justify-center xl:space-y-0 mx-auto items-center text-white">
+    <div className="flex relative flex-col text-center md:text-left top-36 max-w-[2000px] xl:px-10 min-h-screen justify-center xl:space-y-0 mx-auto items-center text-white">
       <h3 className="absolute top-24 uppercase tracking-[20px] text-2xl text-white">
         Skills
       </h3>

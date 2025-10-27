@@ -1,14 +1,13 @@
 import React from "react";
-import { motion } from "framer-motion";
 import { TimeLineData } from "../../constants/constants";
 const Experience = () => {
   return (
     <div className="relative flex flex-col items-center h-screen max-w-full px-10 mx-auto text-white overflor-hidden md:text-left md:flex-row justify-evenly">
-     <h3 className="absolute top-24 uppercase tracking-[20px] text-2xl">
-        Experiences
+     <h3 className="top-36 uppercase tracking-[20px] text-2xl">
+        Experience
       </h3>
-
-      <div className="relative border-l-2 border-orange-300">
+      <div className="relative flex flex-col items-center h-screen top-5">
+        <div className="relative border-l-2 border-orange-300">
         {TimeLineData.map((item, index) => (
           <div key={index} className="mb-10 ml-6">
             <div className="absolute w-3 h-3 bg-orange-300 rounded-full -left-[7px] mt-1.5"></div>
@@ -18,6 +17,8 @@ const Experience = () => {
           </div>
         ))}
       </div>
+</div>
+
     </div>
 )
 }
